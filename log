@@ -45,3 +45,8 @@ list.c:51:6: error: ‘lista’ undeclared (first use in this function); did you
 list.c:51:6: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 c45065a
+Fri 24 Mar 2023 11:46:27 AM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+c1a8702
