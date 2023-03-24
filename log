@@ -50,3 +50,9 @@ Fri 24 Mar 2023 11:46:27 AM UTC:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 c1a8702
+Fri 24 Mar 2023 11:56:48 AM UTC: 
+ list.c | 9 +++++++--
+ 1 file changed, 7 insertions(+), 2 deletions(-)
+ tests:  5|4
+total_score: 25/70
+6e1ab90
