@@ -29,7 +29,11 @@ Node * createNode(void * data) {
 }
 
 List * createList() {
-     return NULL;
+  List *aux = (List *)malloc(sizeof(List));
+  aux-> head = NULL;
+  aux-> tail = NULL;
+  aux-> current = NULL;
+   return NULL;
 }
 
 void * firstList(List * list) {
@@ -61,6 +65,7 @@ void pushCurrent(List * list, void * data) {
 
 void * popFront(List * list) {
     list->current = list->head;
+    list->head--;
     return popCurrent(list);
 }
 
