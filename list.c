@@ -89,6 +89,7 @@ void pushFront(List * list, void * data) {
     return;
   }
   nuevo->next = list->head;
+  list->tail = list->tail->next
   list->head = nuevo;
   return;
   
