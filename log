@@ -33,3 +33,15 @@ Fri 24 Mar 2023 11:39:48 AM UTC:
  tests:  2|5
 total_score: 15/70
 d463200
+Fri 24 Mar 2023 11:46:20 AM UTC: 
+ list.c | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘nextList’:
+list.c:51:6: error: ‘lista’ undeclared (first use in this function); did you mean ‘list’?
+   51 |   if(lista->current)
+      |      ^~~~~
+      |      list
+list.c:51:6: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+c45065a
